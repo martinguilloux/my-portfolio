@@ -185,11 +185,11 @@ function IndexMenu({ fontFamily }: { fontFamily: string }) {
             fontFamily,
           }}
         >
-          <Link href="/index" style={{ textDecoration: "none", color: "inherit" }}>
-            <div style={{ ...baseItemStyle, textAlign: isMobile ? "center" : "left" }}>
-              INDEX
-            </div>
-          </Link>
+          <Link href="/" style={{ textDecoration: "none", color: "inherit" }}>
+  <div style={{ ...baseItemStyle, textAlign: isMobile ? "center" : "left" }}>
+    INDEX
+  </div>
+</Link>
 
           <Link href="/photography" style={{ textDecoration: "none", color: "inherit" }}>
             <div style={{ ...baseItemStyle, textAlign: "center" }}>
