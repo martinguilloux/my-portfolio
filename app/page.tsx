@@ -76,7 +76,7 @@ function Bubble({
       style={{
         position: "fixed",
         left: `calc(${x} * var(--vvw))`,
-        top: `calc(${y} * var(--vvh))`,
+         top: `calc(${y} * var(--vvh))`,
         transform: "translate(-50%, -50%)",
         display: "inline-block",
         cursor: "pointer",
@@ -181,35 +181,18 @@ function IndexMenu({ fontFamily }: { fontFamily: string }) {
 
       {open && (
         <div
-          style={
-  isMobile
-    ? {
-        position: "fixed",
-        inset: 0,
-        background: "#fff",
-        zIndex: 10001,
-
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-
-        padding: "24px",
-        textAlign: "center",
-        fontFamily,
-      }
-    : {
-        position: "absolute",
-        top: 60,
-        left: "50%",
-        transform: "translateX(-50%)",
-        background: "transparent",
-        padding: "10px 10px",
-        minWidth: 700,
-        textAlign: "center",
-        fontFamily,
-      }
-}
+          style={{
+          position: "absolute",
+          top: 60,
+          left: "50%",
+          transform: "translateX(-50%)",
+          background: isMobile ? "#fff" : "transparent",
+          padding: "20px 10px",
+          minWidth: isMobile ? "100vw" : 700,
+          textAlign: "center",
+          fontFamily,
+          zIndex: 999,
+        }}
         >
           <Link href="/" style={{ textDecoration: "none", color: "inherit" }}>
   <div style={{ ...baseItemStyle, textAlign: isMobile ? "center" : "left" }}>
