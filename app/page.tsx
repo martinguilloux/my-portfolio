@@ -183,7 +183,7 @@ function IndexMenu({ fontFamily }: { fontFamily: string }) {
         <div
           style={{
           position: "absolute",
-          top: 60,
+          top: isMobile ? 100 : 60
           left: "50%",
           transform: "translateX(-50%)",
           background: isMobile ? "#fff" : "transparent",
