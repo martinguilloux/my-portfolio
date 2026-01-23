@@ -194,7 +194,7 @@ function IndexMenu({ fontFamily }: { fontFamily: string }) {
           zIndex: 999,
         }}
         >
-          <Link href="/" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link href="/index" style={{ textDecoration: "none", color: "inherit" }}>
   <div style={{ ...baseItemStyle, textAlign: isMobile ? "center" : "left" }}>
     INDEX
   </div>
