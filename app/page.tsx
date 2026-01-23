@@ -47,6 +47,14 @@ function computeBubbleDiameterPx(w: number) {
 
 const COLLISION_MARGIN_PX = 2; // touch/bounce feel
 const TITLE_GAP_PX = 6;
+function getViewportWH() {
+  if (typeof window === "undefined") return { w: 1, h: 1 };
+  const vv = window.visualViewport;
+  return {
+    w: vv?.width ?? window.innerWidth,
+    h: vv?.height ?? window.innerHeight,
+  };
+}
 
 function Bubble({
   bubble,
@@ -251,8 +259,7 @@ export default function Home() {
       setBubbles((prev) => {
         const next = prev.map((b) => ({ ...b }));
 
-        const w = window.innerWidth || 1;
-        const h = window.innerHeight || 1;
+        const { w, h } = getViewportWH();
 
         // Radius in vw/vh (so borders are correct)
         const rxVw = (radiusPx / w) * 100;
