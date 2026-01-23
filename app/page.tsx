@@ -75,8 +75,8 @@ function Bubble({
       href={`/${project.slug}`}
       style={{
         position: "fixed",
-        left: `${x}vw`,
-        top: `${y}vh`,
+        left: `calc(${x} * var(--vvw))`,
+        top: `calc(${y} * var(--vvh))`,
         transform: "translate(-50%, -50%)",
         display: "inline-block",
         cursor: "pointer",
@@ -242,6 +242,29 @@ export default function Home() {
     window.addEventListener("resize", apply);
     return () => window.removeEventListener("resize", apply);
   }, []);
+
+  useEffect(() => {
+  const setViewportVars = () => {
+    const vv = window.visualViewport;
+    const vw = (vv?.width ?? window.innerWidth) * 0.01;
+    const vh = (vv?.height ?? window.innerHeight) * 0.01;
+
+    document.documentElement.style.setProperty("--vvw", `${vw}px`);
+    document.documentElement.style.setProperty("--vvh", `${vh}px`);
+  };
+
+  setViewportVars();
+
+  window.addEventListener("resize", setViewportVars);
+  window.visualViewport?.addEventListener("resize", setViewportVars);
+  window.visualViewport?.addEventListener("scroll", setViewportVars);
+
+  return () => {
+    window.removeEventListener("resize", setViewportVars);
+    window.visualViewport?.removeEventListener("resize", setViewportVars);
+    window.visualViewport?.removeEventListener("scroll", setViewportVars);
+  };
+}, []);
 
   const radiusPx = diameterPx / 2;
 
