@@ -108,24 +108,24 @@ function Bubble({
         )}
       </div>
 
-      {hovered && (
-        <div
-          style={{
-            position: "absolute",
-            top: diameterPx + TITLE_GAP_PX,
-            left: "50%",
-            transform: "translateX(-50%)",
-            whiteSpace: "nowrap",
-            fontSize: titleFontPx,
-            letterSpacing: "0.18em",
-            textTransform: "uppercase",
-            color: "#000",
-            fontFamily,
-          }}
-        >
-          {project.title}
-        </div>
-      )}
+      {hovered && window.innerWidth > 768 && (
+  <div
+    style={{
+      position: "absolute",
+      top: diameterPx + TITLE_GAP_PX,
+      left: "50%",
+      transform: "translateX(-50%)",
+      whiteSpace: "nowrap",
+      fontSize: titleFontPx,
+      letterSpacing: "0.18em",
+      textTransform: "uppercase",
+      color: "#000",
+      fontFamily,
+    }}
+  >
+    {project.title}
+  </div>
+)}
     </Link>
   );
 }
@@ -194,7 +194,7 @@ function IndexMenu({ fontFamily }: { fontFamily: string }) {
           zIndex: 999,
         }}
         >
-          <Link href="/index" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link href="/works" style={{ textDecoration: "none", color: "inherit" }}>
   <div style={{ ...baseItemStyle, textAlign: isMobile ? "center" : "left" }}>
     INDEX
   </div>
