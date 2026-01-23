@@ -181,17 +181,35 @@ function IndexMenu({ fontFamily }: { fontFamily: string }) {
 
       {open && (
         <div
-          style={{
-            position: "absolute",
-            top: 60,
-            left: "50%",
-            transform: "translateX(-50%)",
-            background: "transparent",
-            padding: "10px 10px",
-            minWidth: isMobile ? "92vw" : 700,
-            textAlign: "center",
-            fontFamily,
-          }}
+          style={
+  isMobile
+    ? {
+        position: "fixed",
+        inset: 0,
+        background: "#fff",
+        zIndex: 10001,
+
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+
+        padding: "24px",
+        textAlign: "center",
+        fontFamily,
+      }
+    : {
+        position: "absolute",
+        top: 60,
+        left: "50%",
+        transform: "translateX(-50%)",
+        background: "transparent",
+        padding: "10px 10px",
+        minWidth: 700,
+        textAlign: "center",
+        fontFamily,
+      }
+}
         >
           <Link href="/" style={{ textDecoration: "none", color: "inherit" }}>
   <div style={{ ...baseItemStyle, textAlign: isMobile ? "center" : "left" }}>
