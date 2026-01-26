@@ -25,7 +25,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Martin Guilloux",
-  description: "Portfolio — Film, Photography, Direction",
+  description: "Martin Guilloux, Film, Photography",
 };
 
 export default function RootLayout({
