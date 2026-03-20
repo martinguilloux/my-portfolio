@@ -11,6 +11,7 @@ const MyFont = localFont({
 });
 
 const projects = [
+  { title: "LALA &CE - PLUS EN LIGNE", href: "/project-8" },
   { title: "RNBOI FT. NONO LA GRINTA — AVEC MOI", href: "/project-7" },
   { title: "KULTURR — WUMELA", href: "/project-1" },
   { title: "AS GOOD AS IT GETS", href: "/project-3" },
