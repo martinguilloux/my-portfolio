@@ -36,6 +36,7 @@ const projects: Project[] = [
   { slug: "project-6", title: "CHIBI", thumbnail: "/thumbnails/CHIBI2.png", initialX: 85, initialY: 75 },
   { slug: "project-7", title: "RNBOI FT. NONO LA GRINTA - AVEC MOI", thumbnail: "/thumbnails/avecmoi3.jpg", initialX: 85, initialY: 75 },
   { slug: "project-8", title: "LALA &CE - PLUS EN LIGNE", thumbnail: "/thumbnails/LALA2.png", initialX: 33, initialY: 65 },
+  { slug: "project-9", title: "SWISS FRANCS", thumbnail: "/thumbnails/SWISS.png", initialX: 46, initialY: 12 },
 ];
 
 // ===== Responsive sizing =====
