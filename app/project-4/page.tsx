@@ -10,7 +10,7 @@ const MyFont = localFont({
   style: "normal",
 });
 
-export default function Project10Page() {
+export default function Project4Page() {
   const vimeoSrc =
     "https://player.vimeo.com/video/1204803810?badge=0&autopause=0&player_id=0&app_id=58479";
 
