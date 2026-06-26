@@ -13,6 +13,9 @@ const MyFont = localFont({
 const projects = [
   { title: "LALA &CE - PLUS EN LIGNE", href: "/project-8" },
   { title: "RNBOI FT. NONO LA GRINTA — AVEC MOI", href: "/project-7" },
+  { title: "NUMERO13 ESCO CAMPAIGN N1", href: "/project-4" },
+  { title: "NUMERO13 ESCO CAMPAIGN N2", href: "/project-10" },
+  { title: "NUMERO13 ESCO CAMPAIGN N3", href: "/project-11" },
   { title: "KULTURR — WUMELA", href: "/project-1" },
   { title: "AS GOOD AS IT GETS", href: "/project-3" },
   { title: "CHIBI", href: "/project-6" },

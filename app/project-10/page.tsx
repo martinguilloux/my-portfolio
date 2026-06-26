@@ -1,4 +1,4 @@
-// app/project-9/page.tsx
+// app/project-10/page.tsx
 
 import Image from "next/image";
 import Link from "next/link";
@@ -10,7 +10,7 @@ const MyFont = localFont({
   style: "normal",
 });
 
-export default function Project8Page() {
+export default function Project10Page() {
   const vimeoSrc =
     "https://player.vimeo.com/video/1204807449?badge=0&autopause=0&player_id=0&app_id=58479";
 
@@ -57,7 +57,7 @@ export default function Project8Page() {
             textAlign: "center",
           }}
         >
-          SWISS FRANCS
+          NUMERO13 ESCO N2
         </h1>
       </div>
 

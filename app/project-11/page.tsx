@@ -57,7 +57,7 @@ export default function Project11Page() {
             textAlign: "center",
           }}
         >
-          SWISS FRANCS
+          NUMERO13 ESCO N3
         </h1>
       </div>
 
