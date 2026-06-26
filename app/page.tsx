@@ -31,12 +31,14 @@ const projects: Project[] = [
   { slug: "project-1", title: "KULTURR - WUMELA", thumbnail: "/thumbnails/wumela.jpg", initialX: 20, initialY: 40 },
   { slug: "project-2", title: "SAFIAN - TAKE IT SLOW", thumbnail: "/thumbnails/takeitslow.png", initialX: 50, initialY: 30 },
   { slug: "project-3", title: "AS GOOD AS IT GETS", thumbnail: "/thumbnails/asgoodasitgetserious.png", initialX: 80, initialY: 50 },
-  { slug: "project-4", title: "ESCO CAMPAIGNS", thumbnail: "/thumbnails/esco.png", initialX: 30, initialY: 70 },
+  { slug: "project-4", title: "NUMERO13 ESCO CAMPAIGN 1", thumbnail: "/thumbnails/ESCO1.png", initialX: 30, initialY: 70 },
   { slug: "project-5", title: "EIEGEN RISICO - QUIEN RIE PRIMERO RIE PEOR", thumbnail: "/thumbnails/quienrie.png", initialX: 60, initialY: 65 },
   { slug: "project-6", title: "CHIBI", thumbnail: "/thumbnails/CHIBI2.png", initialX: 85, initialY: 75 },
   { slug: "project-7", title: "RNBOI FT. NONO LA GRINTA - AVEC MOI", thumbnail: "/thumbnails/avecmoi3.jpg", initialX: 85, initialY: 75 },
   { slug: "project-8", title: "LALA &CE - PLUS EN LIGNE", thumbnail: "/thumbnails/LALA2.png", initialX: 33, initialY: 65 },
   { slug: "project-9", title: "SWISS FRANCS", thumbnail: "/thumbnails/SWISS.png", initialX: 46, initialY: 12 },
+  { slug: "project-10", title: "NUMERO13 ESCO CAMPAIGN 2", thumbnail: "/thumbnails/ESCO2.png", initialX: 75, initialY: 18 },
+  { slug: "project-11", title: "NUMERO13 ESCO CAMPAIGN 3", thumbnail: "/thumbnails/ESCO3.png", initialX: 67, initialY: 56 },
 ];
 
 // ===== Responsive sizing =====
