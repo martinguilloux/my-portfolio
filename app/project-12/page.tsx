@@ -1,4 +1,4 @@
-// app/project-8/page.tsx
+// app/project-11/page.tsx
 
 import Image from "next/image";
 import Link from "next/link";
@@ -10,9 +10,9 @@ const MyFont = localFont({
   style: "normal",
 });
 
-export default function Project8Page() {
+export default function Project11Page() {
   const vimeoSrc =
-    "https://player.vimeo.com/video/1175444024?badge=0&autopause=0&player_id=0&app_id=58479";
+    "https://player.vimeo.com/video/1204805581?badge=0&autopause=0&player_id=0&app_id=58479";
 
   return (
     <main
@@ -57,7 +57,7 @@ export default function Project8Page() {
             textAlign: "center",
           }}
         >
-          LALA &CE - PLUS EN LIGNE
+          NUMERO13 ESCO N3
         </h1>
       </div>
 
@@ -90,7 +90,7 @@ export default function Project8Page() {
             allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
-            title="LALA &CE - PLUS EN LIGNE"
+            title="NUMERO13 ESCO CAMPAIGN 3"
           />
         </div>
       </div>

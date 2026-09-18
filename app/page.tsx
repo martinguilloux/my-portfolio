@@ -39,6 +39,7 @@ const projects: Project[] = [
   { slug: "project-9", title: "SWISS FRANCS", thumbnail: "/thumbnails/SWISS.png", initialX: 46, initialY: 12 },
   { slug: "project-10", title: "NUMERO13 ESCO CAMPAIGN 2", thumbnail: "/thumbnails/ESCO2.png", initialX: 75, initialY: 18 },
   { slug: "project-11", title: "NUMERO13 ESCO CAMPAIGN 3", thumbnail: "/thumbnails/ESCO3.png", initialX: 67, initialY: 56 },
+  { slug: "project-12", title: "CARNALITY", thumbnail: "/thumbnails/CARNALITY.jpg", initialX: 98, initialY: 11 },
 ];
 
 // ===== Responsive sizing =====

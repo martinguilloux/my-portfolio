@@ -11,6 +11,7 @@ const MyFont = localFont({
 });
 
 const projects = [
+  { title: "CARNALITY", href: "/project-12" },
   { title: "LALA &CE - PLUS EN LIGNE", href: "/project-8" },
   { title: "RNBOI FT. NONO LA GRINTA — AVEC MOI", href: "/project-7" },
   { title: "NUMERO13 ESCO CAMPAIGN N1", href: "/project-4" },
