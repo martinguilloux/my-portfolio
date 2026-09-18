@@ -57,7 +57,7 @@ export default function Project11Page() {
             textAlign: "center",
           }}
         >
-          NUMERO13 ESCO N3
+          CARNALITY
         </h1>
       </div>
 
