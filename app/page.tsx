@@ -35,7 +35,7 @@ const projects: Project[] = [
   { slug: "project-5", title: "EIEGEN RISICO - QUIEN RIE PRIMERO RIE PEOR", thumbnail: "/thumbnails/quienrie.png", initialX: 60, initialY: 65 },
   { slug: "project-6", title: "CHIBI", thumbnail: "/thumbnails/CHIBI2.png", initialX: 85, initialY: 75 },
   { slug: "project-7", title: "RNBOI FT. NONO LA GRINTA - AVEC MOI", thumbnail: "/thumbnails/avecmoi3.jpg", initialX: 85, initialY: 75 },
-  { slug: "project-8", title: "LALA &CE - PLUS EN LIGNE", thumbnail: "/thumbnails/LALA2.png", initialX: 33, initialY: 65 },
+  /*{ slug: "project-8", title: "LALA &CE - PLUS EN LIGNE", thumbnail: "/thumbnails/LALA2.png", initialX: 33, initialY: 65 },*/
   { slug: "project-9", title: "SWISS FRANCS", thumbnail: "/thumbnails/SWISS.png", initialX: 46, initialY: 12 },
   { slug: "project-10", title: "NUMERO13 ESCO CAMPAIGN 2", thumbnail: "/thumbnails/ESCO2.png", initialX: 75, initialY: 18 },
   { slug: "project-11", title: "NUMERO13 ESCO CAMPAIGN 3", thumbnail: "/thumbnails/ESCO3.png", initialX: 67, initialY: 56 },
