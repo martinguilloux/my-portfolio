@@ -32,7 +32,7 @@ const projects: Project[] = [
   { slug: "project-2", title: "SAFIAN - TAKE IT SLOW", thumbnail: "/thumbnails/takeitslow.png", initialX: 50, initialY: 30 },
   { slug: "project-3", title: "AS GOOD AS IT GETS", thumbnail: "/thumbnails/asgoodasitgetserious.png", initialX: 80, initialY: 50 },
   { slug: "project-4", title: "NUMERO13 ESCO CAMPAIGN 1", thumbnail: "/thumbnails/ESCO1.png", initialX: 30, initialY: 70 },
-  { slug: "project-5", title: "EIEGEN RISICO - QUIEN RIE PRIMERO RIE PEOR", thumbnail: "/thumbnails/quienrie.png", initialX: 60, initialY: 65 },
+  /*{ slug: "project-5", title: "EIEGEN RISICO - QUIEN RIE PRIMERO RIE PEOR", thumbnail: "/thumbnails/quienrie.png", initialX: 60, initialY: 65 },*/
   { slug: "project-6", title: "CHIBI", thumbnail: "/thumbnails/CHIBI2.png", initialX: 85, initialY: 75 },
   { slug: "project-7", title: "RNBOI FT. NONO LA GRINTA - AVEC MOI", thumbnail: "/thumbnails/avecmoi3.jpg", initialX: 85, initialY: 75 },
   /*{ slug: "project-8", title: "LALA &CE - PLUS EN LIGNE", thumbnail: "/thumbnails/LALA2.png", initialX: 33, initialY: 65 },*/
