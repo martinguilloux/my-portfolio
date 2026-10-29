@@ -15,7 +15,6 @@ const projects = [
   { title: "RNBOI FT. NONO LA GRINTA — AVEC MOI", href: "/project-7" },
   { title: "NUMERO13 ESCO CAMPAIGN N1", href: "/project-4" },
   { title: "KULTURR — WUMELA", href: "/project-1" },
-  { title: "AS GOOD AS IT GETS", href: "/project-3" },
   { title: "CHIBI", href: "/project-6" },
   { title: "NUMERO13 ESCO CAMPAIGN N2", href: "/project-10" },
   { title: "SAFIAN — TAKE IT SLOW", href: "/project-2" },
