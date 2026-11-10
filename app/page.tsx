@@ -29,11 +29,11 @@ type BubbleState = {
 
 const projects: Project[] = [
   { slug: "project-1", title: "KULTURR - WUMELA", thumbnail: "/thumbnails/wumela.jpg", initialX: 20, initialY: 40 },
-  { slug: "project-2", title: "SAFIAN - TAKE IT SLOW", thumbnail: "/thumbnails/takeitslow.png", initialX: 50, initialY: 30 },
-  { slug: "project-3", title: "AS GOOD AS IT GETS", thumbnail: "/thumbnails/asgoodasitgetserious.png", initialX: 80, initialY: 50 },
+  /*{ slug: "project-2", title: "SAFIAN - TAKE IT SLOW", thumbnail: "/thumbnails/takeitslow.png", initialX: 50, initialY: 30 },*/
+  /*{ slug: "project-3", title: "AS GOOD AS IT GETS", thumbnail: "/thumbnails/asgoodasitgetserious.png", initialX: 80, initialY: 50 },*/
   { slug: "project-4", title: "NUMERO13 ESCO CAMPAIGN 1", thumbnail: "/thumbnails/ESCO1.png", initialX: 30, initialY: 70 },
   /*{ slug: "project-5", title: "EIEGEN RISICO - QUIEN RIE PRIMERO RIE PEOR", thumbnail: "/thumbnails/quienrie.png", initialX: 60, initialY: 65 },*/
-  { slug: "project-6", title: "CHIBI", thumbnail: "/thumbnails/CHIBI2.png", initialX: 85, initialY: 75 },
+  /*{ slug: "project-6", title: "CHIBI", thumbnail: "/thumbnails/CHIBI2.png", initialX: 85, initialY: 75 },*/
   { slug: "project-7", title: "RNBOI FT. NONO LA GRINTA - AVEC MOI", thumbnail: "/thumbnails/avecmoi3.jpg", initialX: 85, initialY: 75 },
   /*{ slug: "project-8", title: "LALA &CE - PLUS EN LIGNE", thumbnail: "/thumbnails/LALA2.png", initialX: 33, initialY: 65 },*/
   { slug: "project-9", title: "SWISS FRANCS", thumbnail: "/thumbnails/SWISS.png", initialX: 46, initialY: 12 },
@@ -41,7 +41,7 @@ const projects: Project[] = [
   { slug: "project-11", title: "NUMERO13 ESCO CAMPAIGN 3", thumbnail: "/thumbnails/ESCO3.png", initialX: 67, initialY: 56 },
   { slug: "project-12", title: "CARNALITY", thumbnail: "/thumbnails/CARNALITY.jpg", initialX: 98, initialY: 11 },
   { slug: "project-13", title: "14TH FLOOR", thumbnail: "/thumbnails/14.jpg", initialX: 72, initialY: 59 },
-
+  { slug: "project-14", title: "OBLIVION", thumbnail: "OBLIVION.jpg", initialX: 45, initialY: 76 },
 ];
 
 // ===== Responsive sizing =====
